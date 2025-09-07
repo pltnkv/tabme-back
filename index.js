@@ -6,7 +6,7 @@ const rateLimit = require('express-rate-limit')
 // const crypto = require('crypto')
 
 const app = express()
-const PORT = process.env.PORT || 4000
+const PORT = 4000
 const MIXPANEL_TOKEN = process.env.MIXPANEL_TOKEN
 const API_KEY = process.env.STATS_API_KEY
 
